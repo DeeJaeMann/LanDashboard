@@ -1,0 +1,21 @@
+[Unit]
+Description=LanDashboard (User Service)
+After=network.target
+
+[Service]
+WorkingDirectory=%h/apps/LanDashboard/app
+ExecStart=/opt/dotnet-ms/dotnet %h/apps/LanDashboard/app/LanDashboard.App.dll --urls "http://0.0.0.0:5080" --environment "Production"
+
+Environment=PATH=/opt/dotnet-ms:/usr/local/bin:/usr/bin:/bin
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_ENVIRONMENT=Production
+
+Restart=always
+RestartSec=5
+
+StandardOutput=append:%h/apps/LanDashboard/logs/stdout.log
+StandardError=append:%h/apps/LanDashboard/logs/stderr.log
+
+[Install]
+WantedBy=default.target
+
