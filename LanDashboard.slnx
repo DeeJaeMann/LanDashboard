@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="LanDashboard.App.Core.Test/LanDashboard.App.Core.Test.csproj" />
+  <Project Path="LanDashboard.App.Core/LanDashboard.App.Core.csproj" />
+  <Project Path="LanDashboard.App.Test/LanDashboard.App.Test.csproj" />
   <Project Path="LanDashboard.App/LanDashboard.App.csproj" />
 </Solution>
