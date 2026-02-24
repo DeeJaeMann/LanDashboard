@@ -3,4 +3,6 @@
   <Project Path="LanDashboard.App.Core/LanDashboard.App.Core.csproj" />
   <Project Path="LanDashboard.App.Test/LanDashboard.App.Test.csproj" />
   <Project Path="LanDashboard.App/LanDashboard.App.csproj" />
+  <Project Path="LanDashboard.AppHost/LanDashboard.AppHost.csproj" />
+  <Project Path="LanDashboard.ServiceDefaults/LanDashboard.ServiceDefaults.csproj" />
 </Solution>
