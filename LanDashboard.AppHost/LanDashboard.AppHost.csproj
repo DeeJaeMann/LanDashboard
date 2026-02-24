@@ -1,0 +1,17 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.1">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LanDashboard.App.Core.Test\LanDashboard.App.Core.Test.csproj" />
+    <ProjectReference Include="..\LanDashboard.App.Test\LanDashboard.App.Test.csproj" />
+    <ProjectReference Include="..\LanDashboard.App\LanDashboard.App.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>fb3b7b93-05fd-4f3f-b47d-7021fe9310ff</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

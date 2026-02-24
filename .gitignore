@@ -57,3 +57,7 @@ nunit-*.xml
 .idea/
 *.sln.iml
 
+# Aider directories
+.aider/
+.aider*
+

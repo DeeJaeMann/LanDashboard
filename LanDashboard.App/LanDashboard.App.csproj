@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\LanDashboard.App.Core\LanDashboard.App.Core.csproj" />
+      <ProjectReference Include="..\LanDashboard.ServiceDefaults\LanDashboard.ServiceDefaults.csproj" />
     </ItemGroup>
 
     <ItemGroup>
